@@ -26,6 +26,7 @@ Accepted
 
 ## Consequences
 
-"What becomes easier or more difficult to do and any risks introduced by the change that will need to be mitigated."
+> "What becomes easier or more difficult to do and any risks introduced by the change that will need to be mitigated."
 
-tbc
+* Using matcher syntax will add overhead to test writing.
+* We expect that the benefits of having a (non-technical) human description of the platforms will outweigh the development burden.
