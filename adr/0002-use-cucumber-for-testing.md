@@ -19,6 +19,15 @@ Accepted
 * Details of exactly what to put in gherkin syntax files and what to put in pure code tests will require some judgement.
 * Consistency across the several projects involved is valued as some people are working across all of these projects.
 
+> "13. Write functional tests  
+> ...  
+> BDD (using cucumber or any other human-readable way to write tests) will
+> only work if your team has the right workflow for it. Unless you have someone
+> else (ideally your product manager) committed to writing the tests and checking
+> that they pass, you’ll waste time writing code to translate your tests into
+> code, instead of writing it directly."  
+> ~ [DfE Technical guidance on tests](https://technical-guidance.education.gov.uk/documentation/principles/frontend-development-principles.html#13-write-functional-tests)
+
 ## Decision
 
 * Use cucumber to describe all flows that are of significance to the business, notably the "happy paths".
